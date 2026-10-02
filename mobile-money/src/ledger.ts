@@ -126,6 +126,11 @@ export class Ledger {
     return account;
   }
 
+  /** Whether this is the PIN, without counting a wrong one. For rebuilding a lost session. */
+  isPin(phone: string, pin: string): boolean {
+    return this.must(phone).pinHash === this.hash(phone, pin);
+  }
+
   verifyPin(phone: string, pin: string): PinResult {
     const account = this.must(phone);
     if (account.locked) return { ok: false, locked: true, left: 0 };

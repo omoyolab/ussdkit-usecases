@@ -127,6 +127,7 @@ describe("PIN", () => {
     assert.equal(phone.ended, true);
     assert.equal(ledger.find(AMINA)!.balance, 12_500);
     assert.match(await phone.dial(), /^Your PIN is locked/);
+    assert.equal(phone.ended, true);
   });
 
   test("a slip that is not four digits does not use up an attempt", async () => {
@@ -234,9 +235,9 @@ describe("my account", () => {
     await phone.dial();
     assert.equal(
       await phone.type("6", "2", "1234"),
-      "Mini statement\n1. 2/10 Airtime KES 400\n2. 2/10 Airtime KES 300\n3. 2/10 Airtime KES 200\n9. More\n0. Back",
+      "Mini statement\n2/10 Airtime KES 400\n2/10 Airtime KES 300\n2/10 Airtime KES 200\n9. More\n0. Back",
     );
-    assert.equal(await phone.send("9"), "Mini statement\n1. 2/10 Airtime KES 100\n8. Previous\n0. Back");
+    assert.equal(await phone.send("9"), "Mini statement\n2/10 Airtime KES 100\n8. Previous\n0. Back");
     assert.match(await phone.send("8"), /Airtime KES 400/);
     // Back skips the PIN prompt the customer has already passed.
     assert.match(await phone.send("0"), /^My account\n1\. Balance/);
@@ -271,8 +272,9 @@ describe("my account", () => {
 });
 
 describe("a number that is not registered", () => {
-  test("is told so", async () => {
+  test("is told so, and the session ends there", async () => {
     const { phone } = setup("+254700000001");
     assert.equal(await phone.dial(), "This number is not registered for Wallet. Visit an agent with your ID.");
+    assert.equal(phone.ended, true);
   });
 });

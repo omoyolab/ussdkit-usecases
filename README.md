@@ -4,7 +4,7 @@ Real USSD services built end to end on [ussdkit](https://github.com/omoyolab/uss
 
 | Use case | Folder | Screens | Tests | Findings |
 | --- | --- | ---: | ---: | ---: |
-| A mobile money menu: send, withdraw, airtime, pay bill, buy goods, account | [`mobile-money/`](mobile-money/) | 27 | 28 | 12 |
+| A mobile money menu: send, withdraw, airtime, pay bill, buy goods, account | [`mobile-money/`](mobile-money/) | 27 | 31 | 12 found, 10 fixed in ussdkit 0.2.0 |
 
 Each use case installs ussdkit from npm the way a team would, and is written in TypeScript so the library's types are tested too.
 
