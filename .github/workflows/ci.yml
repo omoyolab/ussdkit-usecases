@@ -1,0 +1,25 @@
+name: CI
+
+# Every use case is type-checked and tested against the ussdkit version it pins.
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  mobile-money:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: mobile-money
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
