@@ -1,0 +1,20 @@
+{
+  "name": "ussdkit-usecase-mobile-money",
+  "private": true,
+  "type": "module",
+  "description": "A mobile money menu built on ussdkit: send, withdraw, airtime, pay bill, buy goods, account. A use case, not a product.",
+  "scripts": {
+    "simulate": "tsx src/simulate.ts",
+    "start": "tsx src/server.ts",
+    "test": "node --import tsx --test test/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@omoyolab/ussdkit": "0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
