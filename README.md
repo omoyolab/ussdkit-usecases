@@ -5,7 +5,7 @@ Real USSD services built end to end on [ussdkit](https://github.com/omoyolab/uss
 | Use case | Folder | Screens | Tests | Findings |
 | --- | --- | ---: | ---: | ---: |
 | A mobile money menu: send, withdraw, airtime, pay bill, buy goods, account | [`mobile-money/`](mobile-money/) | 27 | 31 | 12 found, 10 fixed in ussdkit 0.2.0 |
-| Know your lawmakers: your senator and House member, and who is running in 2027, on live data | [`civic-lookup/`](civic-lookup/) | 8 | 20 | 12 found, 6 for ussdkit |
+| Know your lawmakers: your senator and House member, and who is running in 2027, on live data | [`civic-lookup/`](civic-lookup/) | 8 | 22 | 12 found, 6 fixed in ussdkit 0.3.0 |
 
 Each use case installs ussdkit from npm the way a team would, and is written in TypeScript so the library's types are tested too.
 

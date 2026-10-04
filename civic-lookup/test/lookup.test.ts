@@ -243,3 +243,19 @@ test(`every screen for every LGA fits in 182 characters, on ${label}`, async () 
     }
   }
 });
+
+test("deeper screens say how to go home, on the back line", async () => {
+  const { phone } = dial();
+  await phone.dial();
+  assert.match(await phone.send("1"), /\n0\. Back$/);
+  assert.match(await phone.send("1"), /\n0\. Back  00\. Home$/);
+  assert.match(await phone.send("00"), /^Know your lawmakers/);
+});
+
+test("About keeps the call open, and Back returns to the menu", async () => {
+  const { phone } = dial();
+  await phone.dial();
+  assert.match(await phone.send("4"), /^Know your lawmakers\nFind your senator/);
+  assert.equal(phone.ended, false);
+  assert.match(await phone.send("0"), /^Know your lawmakers\n1\. My senator and rep/);
+});

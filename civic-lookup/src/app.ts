@@ -3,10 +3,10 @@
 // One rule runs through it: data is loaded in a handler, before the move to the next screen, and
 // screens draw from what is already loaded. A handler can end the session politely when the API
 // does not answer; a screen that throws while drawing cannot.
-import { createApp, lines, menu, paginate } from "@omoyolab/ussdkit";
-import type { App, Context, Next, Screen } from "@omoyolab/ussdkit";
+import { createApp, info, lines, list, menu, paginate } from "@omoyolab/ussdkit";
+import type { App, Context, Next } from "@omoyolab/ussdkit";
 
-import { CivicUnavailable, key, neutralOrder, seatsFor } from "./civic.js";
+import { CivicUnavailable, neutralOrder, seatsFor } from "./civic.js";
 import type { CivicSource, Person, Seat } from "./civic.js";
 
 type Want = "reps" | "running";
@@ -17,18 +17,11 @@ interface Flow {
   state: string;
   lga: string;
   seatCode: string;
-  statePage: number;
-  stateFilter: string;
-  lgaPage: number;
-  lgaFilter: string;
   listPage: number;
 }
 type Ctx = Context<Flow>;
 
 export const TITLE = "Know your lawmakers";
-/** Room for the answer on the representatives screen, after its one option and the back line. */
-const REPS_BUDGET = 182 - "\n1. Who is running in 2027\n0. Back".length;
-
 export const NOT_AVAILABLE = "Sorry, this list is not available yet. Dial again to look up another seat.";
 export const SORRY = "Sorry, the records could not be reached just now. Please dial again in a few minutes.";
 
@@ -45,14 +38,8 @@ export function shortName(name: string, max = 24): string {
   return firstLast.length <= max ? firstLast : `${firstLast.slice(0, max - 1).trimEnd()}.`;
 }
 
-const person = (p: Person | null): string =>
-  p ? `${shortName(p.name)}${p.party ? ` (${p.party})` : ""}` : "No sitting member on record";
-
-/** True when what was typed starts the name, or starts any word in it: "isl" finds "Lagos Island". */
-function matches(name: string, typed: string): boolean {
-  const k = key(typed);
-  return key(name).startsWith(k) || name.split(/[\s/-]+/).some((word) => key(word).startsWith(k));
-}
+const person = (p: Person | null, max = 24): string =>
+  p ? `${shortName(p.name, max)}${p.party ? ` (${p.party})` : ""}` : "No sitting member on record";
 
 export interface BuildOptions {
   source: CivicSource;
@@ -75,57 +62,6 @@ export function buildApp({ source, onWarning }: BuildOptions): App<Flow> {
     }
   }
 
-  /**
-   * A long list to choose from: numbered pages, or type the first letters to narrow it.
-   * Used for the 37 states and for a state's LGAs (Kano has 44).
-   */
-  function picker(opts: {
-    title: (ctx: Ctx) => string;
-    items: (ctx: Ctx) => Promise<string[]>;
-    page: "statePage" | "lgaPage";
-    filter: "stateFilter" | "lgaFilter";
-    pick: (item: string, ctx: Ctx) => Promise<Next<Flow>>;
-  }): Screen<Flow> {
-    const perPage = 6;
-    const visible = async (ctx: Ctx): Promise<string[]> => {
-      const all = await opts.items(ctx);
-      const typed = ctx.data[opts.filter];
-      return typed ? all.filter((name) => matches(name, typed)) : all;
-    };
-    return {
-      render: async (ctx) => {
-        const list = await visible(ctx);
-        const page = paginate(list, { page: ctx.data[opts.page] ?? 0, perPage });
-        const hint = ctx.data[opts.filter] ? "" : page.page === 0 ? "Or type the first letters" : "";
-        return lines(opts.title(ctx), page.text, hint);
-      },
-      handle: async (ctx) => {
-        const list = await visible(ctx);
-        const page = paginate(list, { page: ctx.data[opts.page] ?? 0, perPage });
-        if (page.isNext(ctx.input)) {
-          ctx.data[opts.page] = page.page + 1;
-          return { retry: "" };
-        }
-        if (page.isPrev(ctx.input)) {
-          ctx.data[opts.page] = page.page - 1;
-          return { retry: "" };
-        }
-        const chosen = page.select(ctx.input);
-        if (chosen) return opts.pick(chosen, ctx);
-        if (/[a-z]/i.test(ctx.input)) {
-          const all = await opts.items(ctx);
-          const found = all.filter((name) => matches(name, ctx.input));
-          if (found.length === 0) return { retry: `Nothing starts with "${ctx.input.slice(0, 12)}".` };
-          if (found.length === 1) return opts.pick(found[0]!, ctx);
-          ctx.data[opts.filter] = ctx.input;
-          ctx.data[opts.page] = 0;
-          return { retry: "" };
-        }
-        return { retry: "Choose a number from the list." };
-      },
-    };
-  }
-
   /** The seats covering the chosen LGA, from the state's seats already loaded. */
   const covering = async (ctx: Ctx) => seatsFor(await source.seats(ctx.data.state!), ctx.data.lga!);
   const place = (ctx: Ctx) => `${ctx.data.lga}, ${ctx.data.state}`;
@@ -133,13 +69,19 @@ export function buildApp({ source, onWarning }: BuildOptions): App<Flow> {
   return createApp<Flow>({
     ttl: 120,
     backHint: "0. Back",
+    homeHint: "00. Home",
     ...(onWarning ? { onWarning } : {}),
+    // Anything that still throws ends with an apology, not a failed request.
+    onError: (error) => {
+      onWarning?.(`error: ${(error as Error).message}`);
+      return SORRY;
+    },
   })
     .screen(
       "home",
       menu(TITLE, [
-        ["My senator and rep", () => ({ goto: "state", data: { want: "reps" as Want, statePage: 0, stateFilter: "" } })],
-        ["Who is running in 2027", () => ({ goto: "state", data: { want: "running" as Want, statePage: 0, stateFilter: "" } })],
+        ["My senator and rep", () => ({ goto: "state", data: { want: "reps" as Want } })],
+        ["Who is running in 2027", () => ({ goto: "state", data: { want: "running" as Want } })],
         [
           "Presidential candidates",
           async () => {
@@ -154,27 +96,24 @@ export function buildApp({ source, onWarning }: BuildOptions): App<Flow> {
     // ---------- Where you live: state, then LGA ----------
     .screen(
       "state",
-      picker({
-        title: () => "Choose your state",
-        items: async () => source.states,
-        page: "statePage",
-        filter: "stateFilter",
-        pick: async (state) => {
+      list<Flow>(
+        "Choose your state",
+        () => source.states,
+        async (state) => {
           const loaded = await load(() => Promise.all([source.lgas(state), source.seats(state)]));
-          if (!loaded.ok) return loaded.next;
-          return { goto: "lga", data: { state, lgaPage: 0, lgaFilter: "" } };
+          return loaded.ok ? { goto: "lga", data: { state } } : loaded.next;
         },
-      }),
+        { perPage: 6, filter: true },
+      ),
     )
     .screen(
       "lga",
-      picker({
-        title: (ctx) => `${ctx.data.state}: choose your LGA`,
-        items: (ctx) => source.lgas(ctx.data.state!),
-        page: "lgaPage",
-        filter: "lgaFilter",
-        pick: async (lga, ctx) => ({ goto: ctx.data.want === "running" ? "running" : "reps", data: { lga } }),
-      }),
+      list<Flow>(
+        (ctx) => `${ctx.data.state}: choose your LGA`,
+        (ctx) => source.lgas(ctx.data.state!),
+        (lga, ctx) => ({ goto: ctx.data.want === "running" ? "running" : "reps", data: { lga } }),
+        { perPage: 6, filter: true },
+      ),
     )
 
     // ---------- Who represents you now ----------
@@ -185,20 +124,27 @@ export function buildApp({ source, onWarning }: BuildOptions): App<Flow> {
           const { senate, house } = await covering(ctx);
           if (senate.length + house.length === 0) return `${place(ctx)}\nNo seat on record for this LGA.`;
           const split = house.length > 1 ? [`${house.length} House seats cover it:`] : [];
-          // With the seat names, when they fit. The option and the back line take about 35 characters.
+          // With the seat names, when they fit in the room ussdkit says is left.
           const full = [
             place(ctx),
             ...senate.flatMap((seat) => [`Senator, ${seat.name}:`, person(seat.sittingMember)]),
             ...split,
             ...house.flatMap((seat) => [`Rep, ${seat.name}:`, person(seat.sittingMember)]),
           ].join("\n");
-          if (full.length <= REPS_BUDGET) return full;
+          if (full.length <= ctx.room) return full;
           // Without them. The seat names are on the 2027 screen, one key away.
-          return [
+          const compact = [
             place(ctx),
             ...senate.map((seat) => `Senator: ${person(seat.sittingMember)}`),
             ...split,
             ...house.map((seat) => `Rep: ${person(seat.sittingMember)}`),
+          ].join("\n");
+          if (compact.length <= ctx.room) return compact;
+          // Tighter still: shorter names, and the two Rep lines say the rest.
+          return [
+            place(ctx),
+            ...senate.map((seat) => `Senator: ${person(seat.sittingMember, 18)}`),
+            ...house.map((seat) => `Rep: ${person(seat.sittingMember, 18)}`),
           ].join("\n");
         },
         [["Who is running in 2027", () => ({ goto: "running", data: { want: "running" as Want } })]],
@@ -255,13 +201,12 @@ export function buildApp({ source, onWarning }: BuildOptions): App<Flow> {
 
     .screen(
       "about",
-      menu(
+      info(
         lines(
           TITLE,
           "Find your senator and House member, and who is running for their seats in 2027.",
           `Data: ${source.credit}. Not a government service.`,
         ),
-        [],
       ),
     );
 
@@ -280,6 +225,6 @@ export function buildApp({ source, onWarning }: BuildOptions): App<Flow> {
     const page = paginate(Array.from({ length: total }, () => ""), { page: ctx.data.listPage ?? 0, perPage, numbered: false });
     if (page.isNext(ctx.input)) ctx.data.listPage = page.page + 1;
     else if (page.isPrev(ctx.input)) ctx.data.listPage = page.page - 1;
-    return { retry: "" };
+    return { stay: true };
   }
 }
