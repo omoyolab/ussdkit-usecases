@@ -1,0 +1,21 @@
+{
+  "name": "ussdkit-usecase-civic-lookup",
+  "private": true,
+  "type": "module",
+  "description": "Find your senator and House member, and who is running in 2027, from any phone. Built on ussdkit with data from the plus234feed intel API. A use case, not a product.",
+  "scripts": {
+    "simulate": "tsx src/simulate.ts",
+    "start": "tsx src/server.ts",
+    "snapshot": "tsx src/snapshot.ts",
+    "test": "node --import tsx --test test/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@omoyolab/ussdkit": "0.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}

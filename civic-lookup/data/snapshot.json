@@ -1,0 +1,2883 @@
+{
+  "savedAt": "2026-10-04",
+  "credit": "INEC and NASS records, via plus234feed",
+  "states": {
+    "Lagos": {
+      "lgas": [
+        "Agege",
+        "Ajeromi-Ifelodun",
+        "Alimosho",
+        "Amuwo-Odofin",
+        "Apapa",
+        "Badagry",
+        "Epe",
+        "Eti-Osa",
+        "Ibeju-Lekki",
+        "Ifako-Ijaiye",
+        "Ikeja",
+        "Ikorodu",
+        "Kosofe",
+        "Lagos Island",
+        "Lagos Mainland",
+        "Mushin",
+        "Ojo",
+        "Oshodi-Isolo",
+        "Shomolu",
+        "Surulere"
+      ],
+      "seats": [
+        {
+          "code": "FC/228/LA",
+          "name": "Agege",
+          "chamber": "house",
+          "lgas": [
+            "Agege"
+          ],
+          "candidateCount": 8,
+          "sittingMember": {
+            "name": "Hameed Adewale Waheed",
+            "party": "APC"
+          }
+        },
+        {
+          "code": "FC/229/LA",
+          "name": "Ifako/Ijaiye",
+          "chamber": "house",
+          "lgas": [
+            "Ifako-Ijaiye"
+          ],
+          "candidateCount": 6,
+          "sittingMember": {
+            "name": "Olabinjo Benjamin Adeyemi",
+            "party": "APC"
+          }
+        },
+        {
+          "code": "FC/230/LA",
+          "name": "Alimosho",
+          "chamber": "house",
+          "lgas": [
+            "Alimosho"
+          ],
+          "candidateCount": 11,
+          "sittingMember": {
+            "name": "Ayuba Ganiyu Adele",
+            "party": "APC"
+          }
+        },
+        {
+          "code": "FC/231/LA",
+          "name": "Badagry",
+          "chamber": "house",
+          "lgas": [
+            "Badagry"
+          ],
+          "candidateCount": 7,
+          "sittingMember": {
+            "name": "Whingan Sesi Oluseun",
+            "party": "APC"
+          }
+        },
+        {
+          "code": "FC/232/LA",
+          "name": "Epe",
+          "chamber": "house",
+          "lgas": [
+            "Epe"
+          ],
+          "candidateCount": 7,
+          "sittingMember": {
+            "name": "Raji Tasir Olawale",
+            "party": "APC"
+          }
+        },
+        {
+          "code": "FC/233/LA",
+          "name": "Ibeju Lekki",
+          "chamber": "house",
+          "lgas": [
+            "Ibeju-Lekki"
+          ],
+          "candidateCount": 6,
+          "sittingMember": {
+            "name": "Balogun Adebayo Olusegun",
+            "party": "APC"
+          }
+        },
+        {
+          "code": "FC/234/LA",
+          "name": "Eti-Osa",
+          "chamber": "house",
+          "lgas": [
+            "Eti-Osa"
+          ],
+          "candidateCount": 8,
+          "sittingMember": {
+            "name": "Thaddeus Attah",
+            "party": "NDC"
+          }
+        },
+        {
+          "code": "FC/235/LA",
+          "name": "Apapa",
+          "chamber": "house",
+          "lgas": [
+            "Apapa"
+          ],
+          "candidateCount": 7,
+          "sittingMember": {
+            "name": "Adedayo Adesola Samuel Olumuyiwa",
+            "party": "APC"
+          }
+        },
+        {
+          "code": "FC/236/LA",
+          "name": "Ikeja",
+          "chamber": "house",
+          "lgas": [
+            "Ikeja"
+          ],
+          "candidateCount": 9,
+          "sittingMember": {
+            "name": "Faleke James Abiodun",
+            "party": "APC"
+          }
+        },
+        {
+          "code": "FC/237/LA",
+          "name": "Ikorodu",
+          "chamber": "house",
+          "lgas": [
+            "Ikorodu"
+          ],
+          "candidateCount": 8,
+          "sittingMember": {
+            "name": "Benson Babajimi Adegoke",
+            "party": "APC"
+          }
+        },
+        {
+          "code": "FC/238/LA",
+          "name": "Lagos Island I",
+          "chamber": "house",
+          "lgas": [
+            "Lagos Island"
+          ],
+          "candidateCount": 4,
+          "sittingMember": {
+            "name": "Badru Enitan Akanni Dolapo",
+            "party": "APC"
+          }
+        },
+        {
+          "code": "FC/239/LA",
+          "name": "Lagos Island II",
+          "chamber": "house",
+          "lgas": [
+            "Lagos Island"
+          ],
+          "candidateCount": 4,
+          "sittingMember": {
+            "name": "Akiolu Moshood Kayode",
+            "party": "APC"
+          }
+        },
+        {
+          "code": "FC/240/LA",
+          "name": "Lagos Mainland",
+          "chamber": "house",
+          "lgas": [
+            "Lagos Mainland"
+          ],
+          "candidateCount": 6,
+          "sittingMember": {
+            "name": "Oshun Moshood Olanrewaju",
+            "party": "APC"
+          }
+        },
+        {
+          "code": "FC/241/LA",
+          "name": "Mushin I",
+          "chamber": "house",
+          "lgas": [
+            "Mushin"
+          ],
+          "candidateCount": 7,
+          "sittingMember": {
+            "name": "Alli Adeyemi Taofeek",
+            "party": "APC"
+          }
+        },
+        {
+          "code": "FC/242/LA",
+          "name": "Mushin II",
+          "chamber": "house",
+          "lgas": [
+            "Mushin"
+          ],
+          "candidateCount": 8,
+          "sittingMember": {
+            "name": "Fayinka Moses Oluwatoyin",
+            "party": "APC"
+          }
+        },
+        {
+          "code": "FC/243/LA",
+          "name": "Ojo",
+          "chamber": "house",
+          "lgas": [
+            "Ojo"
+          ],
+          "candidateCount": 13,
+          "sittingMember": {
+            "name": "Oluwaseyi Ayopo Sowumi",
+            "party": "NDC"
+          }
+        },
+        {
+          "code": "FC/244/LA",
+          "name": "Amuwo-Odofin",
+          "chamber": "house",
+          "lgas": [
+            "Amuwo-Odofin"
+          ],
+          "candidateCount": 10,
+          "sittingMember": {
+            "name": "Olawande George",
+            "party": "NDC"
+          }
+        },
+        {
+          "code": "FC/245/LA",
+          "name": "Ajeromi/Ifelodun",
+          "chamber": "house",
+          "lgas": [
+            "Ajeromi-Ifelodun"
+          ],
+          "candidateCount": 8,
+          "sittingMember": {
+            "name": "Kalejaiye Paul Adeboye",
+            "party": "APC"
+          }
+        },
+        {
+          "code": "FC/246/LA",
+          "name": "Oshodi/Isolo I",
+          "chamber": "house",
+          "lgas": [
+            "Oshodi-Isolo"
+          ],
+          "candidateCount": 7,
+          "sittingMember": {
+            "name": "Dawodu Bashiru Ayinla",
+            "party": "APC"
+          }
+        },
+        {
+          "code": "FC/247/LA",
+          "name": "Oshodi/Isolo II",
+          "chamber": "house",
+          "lgas": [
+            "Oshodi-Isolo"
+          ],
+          "candidateCount": 9,
+          "sittingMember": {
+            "name": "Barr. Jesse Okey-Joe Onuakalusi",
+            "party": "NDC"
+          }
+        },
+        {
+          "code": "FC/248/LA",
+          "name": "Shomolu",
+          "chamber": "house",
+          "lgas": [
+            "Shomolu"
+          ],
+          "candidateCount": 9,
+          "sittingMember": {
+            "name": "Kuye Ademorin Aliu",
+            "party": "APC"
+          }
+        },
+        {
+          "code": "FC/249/LA",
+          "name": "Kosofe",
+          "chamber": "house",
+          "lgas": [
+            "Kosofe"
+          ],
+          "candidateCount": 8,
+          "sittingMember": {
+            "name": "Ogbara Adetola Kafilat",
+            "party": "APC"
+          }
+        },
+        {
+          "code": "FC/250/LA",
+          "name": "Surulere I",
+          "chamber": "house",
+          "lgas": [
+            "Surulere"
+          ],
+          "candidateCount": 8,
+          "sittingMember": {
+            "name": "Fuad Kayode Laguda",
+            "party": "APC"
+          }
+        },
+        {
+          "code": "FC/251/LA",
+          "name": "Surulere II",
+          "chamber": "house",
+          "lgas": [
+            "Surulere"
+          ],
+          "candidateCount": 6,
+          "sittingMember": {
+            "name": "Okunlola Lanre",
+            "party": "APC"
+          }
+        },
+        {
+          "code": "SD/070/LA",
+          "name": "Lagos Central",
+          "chamber": "senate",
+          "lgas": [
+            "Apapa",
+            "Eti-Osa",
+            "Lagos Island",
+            "Lagos Mainland",
+            "Surulere"
+          ],
+          "candidateCount": 11,
+          "sittingMember": {
+            "name": "Sanni Wasiu Eshilokun",
+            "party": "APC"
+          }
+        },
+        {
+          "code": "SD/071/LA",
+          "name": "Lagos East",
+          "chamber": "senate",
+          "lgas": [
+            "Epe",
+            "Ibeju-Lekki",
+            "Ikorodu",
+            "Kosofe",
+            "Shomolu"
+          ],
+          "candidateCount": 10,
+          "sittingMember": {
+            "name": "Abiru Mukhail Adetokunbo",
+            "party": "APC"
+          }
+        },
+        {
+          "code": "SD/072/LA",
+          "name": "Lagos West",
+          "chamber": "senate",
+          "lgas": [
+            "Agege",
+            "Ajeromi-Ifelodun",
+            "Alimosho",
+            "Amuwo-Odofin",
+            "Badagry",
+            "Ifako-Ijaiye",
+            "Ikeja",
+            "Mushin",
+            "Ojo",
+            "Oshodi-Isolo"
+          ],
+          "candidateCount": 15,
+          "sittingMember": {
+            "name": "Adebule Idiat Oluranti",
+            "party": "APC"
+          }
+        }
+      ]
+    },
+    "Rivers": {
+      "lgas": [
+        "Abua/Odual",
+        "Ahoada East",
+        "Ahoada West",
+        "Akuku-Toru",
+        "Andoni",
+        "Asari-Toru",
+        "Bonny",
+        "Degema",
+        "Eleme",
+        "Emohua",
+        "Etche",
+        "Gokana",
+        "Ikwerre",
+        "Khana",
+        "Obio/Akpor",
+        "Ogba/Egbema/Ndoni",
+        "Ogu/Bolo",
+        "Okrika",
+        "Omuma",
+        "Opobo/Nkoro",
+        "Oyigbo",
+        "Port Harcourt",
+        "Tai"
+      ],
+      "seats": [
+        {
+          "code": "FC/316/RV",
+          "name": "Abua-Odual/Ahaoda East",
+          "chamber": "house",
+          "lgas": [
+            "Abua/Odual",
+            "Ahoada East"
+          ],
+          "candidateCount": 12,
+          "sittingMember": {
+            "name": "Bob Solomon T.",
+            "party": "APC"
+          }
+        },
+        {
+          "code": "FC/317/RV",
+          "name": "Ahoada West/Ogba Egbema",
+          "chamber": "house",
+          "lgas": [
+            "Ahoada West",
+            "Ogba/Egbema/Ndoni"
+          ],
+          "candidateCount": 12,
+          "sittingMember": {
+            "name": "Obuzor Victor, Chukwuemele",
+            "party": "APC"
+          }
+        },
+        {
+          "code": "FC/318/RV",
+          "name": "Degema/Bonny",
+          "chamber": "house",
+          "lgas": [
+            "Bonny",
+            "Degema"
+          ],
+          "candidateCount": 13,
+          "sittingMember": {
+            "name": "Hart Cyril Godwin",
+            "party": "APC"
+          }
+        },
+        {
+          "code": "FC/319/RV",
+          "name": "Akuku-Toru/Asari-Toru",
+          "chamber": "house",
+          "lgas": [
+            "Akuku-Toru",
+            "Asari-Toru"
+          ],
+          "candidateCount": 12,
+          "sittingMember": {
+            "name": "Goodhead Boma",
+            "party": "APP"
+          }
+        },
+        {
+          "code": "FC/320/RV",
+          "name": "Okrika/Ogu-Bolo",
+          "chamber": "house",
+          "lgas": [
+            "Ogu/Bolo",
+            "Okrika"
+          ],
+          "candidateCount": 12,
+          "sittingMember": {
+            "name": "Anderson Allison Igbiks",
+            "party": "APC"
+          }
+        },
+        {
+          "code": "FC/321/RV",
+          "name": "Opobo/Nkoro/Andoni",
+          "chamber": "house",
+          "lgas": [
+            "Andoni",
+            "Opobo/Nkoro"
+          ],
+          "candidateCount": 12,
+          "sittingMember": {
+            "name": "Abiante Awaji-Inombek Dagomie",
+            "party": "NDC"
+          }
+        },
+        {
+          "code": "FC/322/RV",
+          "name": "Eleme/Tai/Oyigbo",
+          "chamber": "house",
+          "lgas": [
+            "Eleme",
+            "Oyigbo",
+            "Tai"
+          ],
+          "candidateCount": 11,
+          "sittingMember": {
+            "name": "Nwaeke Felix Uche",
+            "party": "APC"
+          }
+        },
+        {
+          "code": "FC/323/RV",
+          "name": "Khana/Gokana",
+          "chamber": "house",
+          "lgas": [
+            "Gokana",
+            "Khana"
+          ],
+          "candidateCount": 11,
+          "sittingMember": {
+            "name": "Dumnamene Robinson Deekor",
+            "party": "APC"
+          }
+        },
+        {
+          "code": "FC/324/RV",
+          "name": "Ikwerre/Umohua",
+          "chamber": "house",
+          "lgas": [
+            "Emohua",
+            "Ikwerre"
+          ],
+          "candidateCount": 13,
+          "sittingMember": {
+            "name": "Emeriengwa Boniface Sunday",
+            "party": "APC"
+          }
+        },
+        {
+          "code": "FC/325/RV",
+          "name": "Etche/Omuma",
+          "chamber": "house",
+          "lgas": [
+            "Etche",
+            "Omuma"
+          ],
+          "candidateCount": 10,
+          "sittingMember": {
+            "name": "Nwogu Kelechi",
+            "party": "PDP"
+          }
+        },
+        {
+          "code": "FC/326/RV",
+          "name": "Obio Akpor",
+          "chamber": "house",
+          "lgas": [
+            "Obio/Akpor"
+          ],
+          "candidateCount": 11,
+          "sittingMember": {
+            "name": "Chinda Kingsley Ogundu",
+            "party": "APC"
+          }
+        },
+        {
+          "code": "FC/327/RV",
+          "name": "Port Harcourt I",
+          "chamber": "house",
+          "lgas": [
+            "Port Harcourt"
+          ],
+          "candidateCount": 9,
+          "sittingMember": {
+            "name": "Umezuruike Manuchim",
+            "party": "NDC"
+          }
+        },
+        {
+          "code": "FC/328/RV",
+          "name": "Port Harcourt II",
+          "chamber": "house",
+          "lgas": [
+            "Port Harcourt"
+          ],
+          "candidateCount": 8,
+          "sittingMember": {
+            "name": "Blessing Chigeru Amadi",
+            "party": "APC"
+          }
+        },
+        {
+          "code": "SD/094/RV",
+          "name": "Rivers East",
+          "chamber": "senate",
+          "lgas": [
+            "Emohua",
+            "Etche",
+            "Ikwerre",
+            "Obio/Akpor",
+            "Ogu/Bolo",
+            "Okrika",
+            "Omuma",
+            "Port Harcourt"
+          ],
+          "candidateCount": 12,
+          "sittingMember": {
+            "name": "Onyesoh Allwel Heacho",
+            "party": "APC"
+          }
+        },
+        {
+          "code": "SD/095/RV",
+          "name": "Rivers South East",
+          "chamber": "senate",
+          "lgas": [
+            "Andoni",
+            "Eleme",
+            "Gokana",
+            "Khana",
+            "Opobo/Nkoro",
+            "Oyigbo",
+            "Tai"
+          ],
+          "candidateCount": 13,
+          "sittingMember": {
+            "name": "Olaka Nwogu",
+            "party": "PDP"
+          }
+        },
+        {
+          "code": "SD/096/RV",
+          "name": "Rivers West",
+          "chamber": "senate",
+          "lgas": [
+            "Abua/Odual",
+            "Ahoada East",
+            "Ahoada West",
+            "Akuku-Toru",
+            "Asari-Toru",
+            "Bonny",
+            "Degema",
+            "Ogba/Egbema/Ndoni"
+          ],
+          "candidateCount": 16,
+          "sittingMember": {
+            "name": "Banigo Ipalibo Harry",
+            "party": "APC"
+          }
+        }
+      ]
+    }
+  },
+  "candidates": {
+    "FC/228/LA": [
+      {
+        "name": "Isa Adam",
+        "party": "A",
+        "isIncumbent": false
+      },
+      {
+        "name": "Sarumi Oluwaseyi",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ishola Abioye Janet",
+        "party": "ADP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Obasa Mudashiru Ajayi",
+        "party": "APC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Abioye Kazeem Olalekan Danjuma",
+        "party": "APM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Dabiri Bamidele Rasheed",
+        "party": "NDC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Odufolakun Olalekan Ganiyu",
+        "party": "PDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Afolabi Ajose",
+        "party": "SDP",
+        "isIncumbent": false
+      }
+    ],
+    "FC/229/LA": [
+      {
+        "name": "Olabinjo Benjamin Adeyemi",
+        "party": "APC",
+        "isIncumbent": true
+      },
+      {
+        "name": "Adetutu Yetunde Adelani",
+        "party": "A",
+        "isIncumbent": false
+      },
+      {
+        "name": "Shodipo Idera",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Oloyede Mutairu Abiodun",
+        "party": "APM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Olawoyin Akeem Adeoye",
+        "party": "NDC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Lawal Adekunle Sodiq",
+        "party": "PDP",
+        "isIncumbent": false
+      }
+    ],
+    "FC/230/LA": [
+      {
+        "name": "Odeyingbo Mayowa Sodiq",
+        "party": "A",
+        "isIncumbent": false
+      },
+      {
+        "name": "Olurinde Olaide Basirat",
+        "party": "AAC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ola Olusola Motunrayo",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Olaojo Olufeyikemi",
+        "party": "ADP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Adebanjo Olabisi",
+        "party": "APC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Fatai Kehinde Owolabi",
+        "party": "APM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Lanihun Oluwatoyin Omolabake",
+        "party": "NDC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Fagbulu Taiwo Olubunmi",
+        "party": "PDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Wole-Osho Ifeoluwalayomi",
+        "party": "PRP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Jaiyeola Olusegun Mobolaji",
+        "party": "YPP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Oriaku Amaka Ijelove",
+        "party": "ZLP",
+        "isIncumbent": false
+      }
+    ],
+    "FC/231/LA": [
+      {
+        "name": "Joseph Taiwo Jehoshaphat",
+        "party": "A",
+        "isIncumbent": false
+      },
+      {
+        "name": "Boton Juliana Senayon",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Onilude Olusegun Adeniran",
+        "party": "APC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Hunyinbo Seyon Aina",
+        "party": "APM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Toviho Olayemi Monday Solomon",
+        "party": "NDC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Medemaku Abayomi Noah",
+        "party": "PDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Isidenu Marystella Chioma",
+        "party": "ZLP",
+        "isIncumbent": false
+      }
+    ],
+    "FC/232/LA": [
+      {
+        "name": "Raji Tasir Olawale",
+        "party": "APC",
+        "isIncumbent": true
+      },
+      {
+        "name": "Ogunnoiki Abiola Babatunde",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Owodunni Azeez",
+        "party": "ADP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Alebiosu Sikiru Adekoya",
+        "party": "APM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Otubanjo Muyiwa Joseph",
+        "party": "NDC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Onakoya Abdulkareem",
+        "party": "PDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Awobajo Peluola",
+        "party": "SDP",
+        "isIncumbent": false
+      }
+    ],
+    "FC/233/LA": [
+      {
+        "name": "Balogun Adebayo Olusegun",
+        "party": "APC",
+        "isIncumbent": true
+      },
+      {
+        "name": "Balogun Waris",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Lukman Ahmed Temidayo",
+        "party": "APM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Olayemi-Aboyewa Blessing",
+        "party": "NDC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Omoshola Gbemisola Holymary",
+        "party": "PDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Shotonua Kazeem Adebayo",
+        "party": "ZLP",
+        "isIncumbent": false
+      }
+    ],
+    "FC/234/LA": [
+      {
+        "name": "Azeez Raji Razaq",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Raymond Emenike",
+        "party": "ADP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Lawal Fuad Atanda",
+        "party": "APC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Okunowo Adeyemi Olufunto",
+        "party": "BP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Akin-Taylor Ekong Marian Adedayo Remilekun",
+        "party": "NDC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Adeola Dagunro Adekunle",
+        "party": "NRM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Edunjobi Segun Olawale",
+        "party": "PDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Aramide Ajisola",
+        "party": "SDP",
+        "isIncumbent": false
+      }
+    ],
+    "FC/235/LA": [
+      {
+        "name": "Sulaiman Aliyu Akanni",
+        "party": "AAC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Are Azeez Ajibola",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Egberongbe Mufutau Adewale",
+        "party": "APC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ramon Nurudeen Babatunde",
+        "party": "APM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Egbayelo Oladele Jabez",
+        "party": "NDC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Jimoh Rasheed",
+        "party": "NDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Adegbuyi Olaolu",
+        "party": "PDP",
+        "isIncumbent": false
+      }
+    ],
+    "FC/236/LA": [
+      {
+        "name": "Faleke James Abiodun",
+        "party": "APC",
+        "isIncumbent": true
+      },
+      {
+        "name": "Akinde Oluwaseyi Akeem",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Philip Faith",
+        "party": "ADP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Osundaro Olanrewaju Oluwatoyin",
+        "party": "APM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Adeleke Sunday Abiodun",
+        "party": "BP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Orukpe Joseph Joevic",
+        "party": "NDC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Daranijo Yaaqub Olugbenga",
+        "party": "PDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Adeyemi Adeoye",
+        "party": "SDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Nzereogu Leonard Obilor",
+        "party": "ZLP",
+        "isIncumbent": false
+      }
+    ],
+    "FC/237/LA": [
+      {
+        "name": "Benson Babajimi Adegoke",
+        "party": "APC",
+        "isIncumbent": true
+      },
+      {
+        "name": "Olasoji Michael Olayemi",
+        "party": "AAC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Balogun Rotimi",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Samson Sulaimon",
+        "party": "ADP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Shitta Olusola Adebukola",
+        "party": "APM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Johnson Blessyn",
+        "party": "NDC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Odeyale Temitope Alaba",
+        "party": "PDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Adebosipo Lateef Ayinde",
+        "party": "SDP",
+        "isIncumbent": false
+      }
+    ],
+    "FC/238/LA": [
+      {
+        "name": "Badru Dolapo",
+        "party": "APC",
+        "isIncumbent": true
+      },
+      {
+        "name": "Rasheed Olamilekan Tiamiyu",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ahmed Adeniyi Ololade Idris",
+        "party": "APM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Atiroko Adedotun",
+        "party": "PDP",
+        "isIncumbent": false
+      }
+    ],
+    "FC/239/LA": [
+      {
+        "name": "Akiolu Moshood Kayode",
+        "party": "APC",
+        "isIncumbent": true
+      },
+      {
+        "name": "Omu Ogunjobi Seki",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Jimoh Aisha Gloria Atuajie",
+        "party": "NDC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Adebiyi Mustapha",
+        "party": "PDP",
+        "isIncumbent": false
+      }
+    ],
+    "FC/240/LA": [
+      {
+        "name": "Ojieh Ekene Theresa",
+        "party": "AAC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Shodipo Jelili",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Afose Sulayman Senayon",
+        "party": "ADP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Omolaja Adekunle Kazeem",
+        "party": "APC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Oyekola Olasunkanmi Moses",
+        "party": "APM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Sanni Kamurdeen Olatunji",
+        "party": "NDC",
+        "isIncumbent": false
+      }
+    ],
+    "FC/241/LA": [
+      {
+        "name": "Alli Adeyemi Taofik",
+        "party": "APC",
+        "isIncumbent": true
+      },
+      {
+        "name": "Daramola Idowu",
+        "party": "A",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ayantuga Oyebolaji Ayodeji",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Oni Ademola Michael",
+        "party": "APM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ayanlola Paul",
+        "party": "LP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Adesoyin Olumide",
+        "party": "NDC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Odunfa Agoola Bolarinwa",
+        "party": "PDP",
+        "isIncumbent": false
+      }
+    ],
+    "FC/242/LA": [
+      {
+        "name": "Fayinka Moses Oluwatoyin",
+        "party": "APC",
+        "isIncumbent": true
+      },
+      {
+        "name": "Dosumu David Ifedayo",
+        "party": "A",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ogunseye Oladipupo Israel",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Agbeyinka Olabode",
+        "party": "ADP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Edu Eniola Muyibat",
+        "party": "APM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Aneke Benson Obinna",
+        "party": "NDC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Adeyemi Olamide Michael",
+        "party": "PDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ogunsaya Titilayo",
+        "party": "SDP",
+        "isIncumbent": false
+      }
+    ],
+    "FC/243/LA": [
+      {
+        "name": "Ayopo Oluwaseyi Sowunmi",
+        "party": "NDC",
+        "isIncumbent": true
+      },
+      {
+        "name": "Onipede Joshua Babalola",
+        "party": "AA",
+        "isIncumbent": false
+      },
+      {
+        "name": "Awesanmi Williams Ademola",
+        "party": "AAC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Oseni Aderogba",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Tejumola-Agboola Felix",
+        "party": "ADP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Bolaji Kayode Robert",
+        "party": "APC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Onwurah Nduka Felix",
+        "party": "APGA",
+        "isIncumbent": false
+      },
+      {
+        "name": "Fayemi Oluwaseun",
+        "party": "APM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Adebayo Olorunfemi Folorunsho",
+        "party": "APP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Nzekwe Happiness Chiamaka",
+        "party": "LP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Obasa Tajudeen Adekunle",
+        "party": "PDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ogbitebu Godfrey Oyemomeh",
+        "party": "PRP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Isidenu Charles Chukwudubem",
+        "party": "ZLP",
+        "isIncumbent": false
+      }
+    ],
+    "FC/244/LA": [
+      {
+        "name": "Olawande George Folarin",
+        "party": "NDC",
+        "isIncumbent": true
+      },
+      {
+        "name": "Okwor Prince Moses",
+        "party": "A",
+        "isIncumbent": false
+      },
+      {
+        "name": "Olarewaju Moses",
+        "party": "APC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ibeh Kenechukwu Thankgod",
+        "party": "APGA",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ilesanmi Yeside Kafayat",
+        "party": "APM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Osho Omotolani Aminat",
+        "party": "APP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Edebiri Belinda Esosa",
+        "party": "LP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Chimsom Goodluck Samson",
+        "party": "PDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Sokunle Oladimeju",
+        "party": "SDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Uzogarah Athanasius Ikechukwu",
+        "party": "ZLP",
+        "isIncumbent": false
+      }
+    ],
+    "FC/245/LA": [
+      {
+        "name": "Kalejaiye Adeboye Paul",
+        "party": "APC",
+        "isIncumbent": true
+      },
+      {
+        "name": "Lawal Olajide Razzaaq",
+        "party": "A",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ezeude Emilia Uche",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Uwandu Wilfred Chukwuma",
+        "party": "ADP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Abba Oliver Eche",
+        "party": "APM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Francis Barthlomew Chima",
+        "party": "NDC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Iwegbuna Clement C.",
+        "party": "NNPP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Diriwari Oladipupo O. Wilson",
+        "party": "PDP",
+        "isIncumbent": false
+      }
+    ],
+    "FC/246/LA": [
+      {
+        "name": "Akintunde Waheed Adetunji",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Adedeji Oluwasefunmi Omotosho",
+        "party": "ADP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Aiyedun Taiwo",
+        "party": "APC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Lateef Bashiru Adewale",
+        "party": "APM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ibrahim Alabi Lukman",
+        "party": "NDC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ademoroti Adekunle Adejola",
+        "party": "NRM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Oyeoku Odum Kalu",
+        "party": "PDP",
+        "isIncumbent": false
+      }
+    ],
+    "FC/247/LA": [
+      {
+        "name": "Onuakalusi Jesse Okey-Joe",
+        "party": "NDC",
+        "isIncumbent": true
+      },
+      {
+        "name": "Adekola Ademola Obafemi",
+        "party": "A",
+        "isIncumbent": false
+      },
+      {
+        "name": "Makanjuola Oluwafemi Emmanuel",
+        "party": "AA",
+        "isIncumbent": false
+      },
+      {
+        "name": "Erinfolami Lateef",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Bello Monsuru Oloyede",
+        "party": "APC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Onwuka Philip Ikechukwu",
+        "party": "APM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Okpalaniukwu Chukwuamaka Angela",
+        "party": "APP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ebenizer Ken Obioma",
+        "party": "PDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Olufemi Shotade",
+        "party": "SDP",
+        "isIncumbent": false
+      }
+    ],
+    "FC/248/LA": [
+      {
+        "name": "Ashogbon Rasheed Funmilayo",
+        "party": "A",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ehikhamhen Osagie",
+        "party": "AA",
+        "isIncumbent": false
+      },
+      {
+        "name": "Jegede Kehinde Olatunji",
+        "party": "AAC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Alabi David Kolade",
+        "party": "APC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Emilere Wasiu Adekunle",
+        "party": "APM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Olowu Oluwaseyi",
+        "party": "NDC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Adeniji Olukayode",
+        "party": "NDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Akinsanya Idowu Bimpe",
+        "party": "PDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Oludotun Muyiwa Sunday",
+        "party": "SDP",
+        "isIncumbent": false
+      }
+    ],
+    "FC/249/LA": [
+      {
+        "name": "Ogunlami Opeyemi Benjamin",
+        "party": "AAC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Adesina Adebowale",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Olowofo Samuel",
+        "party": "ADP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Oshinowo Oladele",
+        "party": "APC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Oshodi Olabode Malik",
+        "party": "APM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ajayi-Femi Ekundayo",
+        "party": "NDC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Adebayo Ebenezer Alade",
+        "party": "PDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Adebanjo Rasheed Adebowale",
+        "party": "SDP",
+        "isIncumbent": false
+      }
+    ],
+    "FC/250/LA": [
+      {
+        "name": "Laguda Fuad Kayode",
+        "party": "APC",
+        "isIncumbent": true
+      },
+      {
+        "name": "Odebunmi Obafemi Babatunde",
+        "party": "AAC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Adeshina Riliwan Kofoworola",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Oworu Olumide Abiodun",
+        "party": "APM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ishaaq Tunde Kazeem",
+        "party": "APP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Adebayo Adefolaseye Adebomi",
+        "party": "NDC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Adepitan Olusegun Olatunji",
+        "party": "NRM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ugbah Ozo-Brown Lewis",
+        "party": "PDP",
+        "isIncumbent": false
+      }
+    ],
+    "FC/251/LA": [
+      {
+        "name": "Okunlola Lanre",
+        "party": "APC",
+        "isIncumbent": true
+      },
+      {
+        "name": "Ibironke Taiwo Aderogba",
+        "party": "AAC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Yunus Ademola Hassan",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Edun Olanrewaju Olalekan",
+        "party": "APM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Macaulay Olakunle Julius",
+        "party": "NDC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Orishabiyi Olutoye Alabi",
+        "party": "PDP",
+        "isIncumbent": false
+      }
+    ],
+    "SD/070/LA": [
+      {
+        "name": "Sanni Eshilokun Wasiu Olatunji",
+        "party": "APC",
+        "isIncumbent": true
+      },
+      {
+        "name": "Wahab Solomon Oladimeji",
+        "party": "A",
+        "isIncumbent": false
+      },
+      {
+        "name": "Odunuyi Babatunde Samuel",
+        "party": "AAC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Abayomi Idowu Omotayo",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ojumu Desmond Oludare",
+        "party": "APM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Johnson Lawrence Adeniyi Oladipupo",
+        "party": "NDC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Omolola Oluwatosin David",
+        "party": "NDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Makinde Muyiwa",
+        "party": "NRM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Dakova-Vaughan Kolawole David",
+        "party": "PDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Oloko Afolabi Lookman",
+        "party": "PRP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Akinyemi Akintunde Kazeem",
+        "party": "SDP",
+        "isIncumbent": false
+      }
+    ],
+    "SD/071/LA": [
+      {
+        "name": "Abiru Adetokunbo Mukhail",
+        "party": "APC",
+        "isIncumbent": true
+      },
+      {
+        "name": "Maduka-Sunday Blessing Maria",
+        "party": "A",
+        "isIncumbent": false
+      },
+      {
+        "name": "Oluwanuyi Olorungbolaga Emmanuel",
+        "party": "AAC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Moshood Babatunde Olanrewaju",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Adejumo Adeyemi Kingsley",
+        "party": "ADP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Obadiaru Charles Imwemoghomwen",
+        "party": "APM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Adebanjo Adeola Damilola",
+        "party": "NDC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Olayokun Adeshina",
+        "party": "NDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ganiyu Toyin Sakiru",
+        "party": "PDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Adeniji Victor",
+        "party": "SDP",
+        "isIncumbent": false
+      }
+    ],
+    "SD/072/LA": [
+      {
+        "name": "Adebule Idiat Oluranti",
+        "party": "APC",
+        "isIncumbent": true
+      },
+      {
+        "name": "Oladeji Oladele Oluwatosin",
+        "party": "A",
+        "isIncumbent": false
+      },
+      {
+        "name": "Somefun Olusola Alfred",
+        "party": "AAC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Bello Owolabi Hafis",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ishola Bamidele Johnson",
+        "party": "ADP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Koshoedo Setonji Gbemenu",
+        "party": "APM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ajayi Adewale",
+        "party": "APP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Olatunbosun- Odunsami Oswald Olarewaju",
+        "party": "LP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Salvador Adegoke Moshood",
+        "party": "NDC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Udoh Godwin Sunday",
+        "party": "NDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Adebowale Princess Teniola Anike",
+        "party": "NNPP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Phillips Adebiyi Abiodun",
+        "party": "PDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Amike Primate Henry",
+        "party": "SDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ajani Adeolu",
+        "party": "YPP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Adenipebi Mode Adekunle",
+        "party": "ZLP",
+        "isIncumbent": false
+      }
+    ],
+    "FC/316/RV": [
+      {
+        "name": "Bob Solomon",
+        "party": "APC",
+        "isIncumbent": true
+      },
+      {
+        "name": "Victor Igeh Happiness",
+        "party": "AA",
+        "isIncumbent": false
+      },
+      {
+        "name": "Akio David Allen",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Obu Oduomologhi",
+        "party": "ADP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Sokari Sonny",
+        "party": "APM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ogu Emughedi",
+        "party": "APP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Akeuseph Itari",
+        "party": "DLA",
+        "isIncumbent": false
+      },
+      {
+        "name": "Moro Emmanuel Umor",
+        "party": "LP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Job Irene Chinembudu",
+        "party": "NDC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ogwus-Chinedu Ekwutoziam Ashiedu",
+        "party": "NNPP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ewoh Priscillia Richard",
+        "party": "PDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Nwoka Douglas",
+        "party": "YPP",
+        "isIncumbent": false
+      }
+    ],
+    "FC/317/RV": [
+      {
+        "name": "Obuzor Victor Chukwuemele",
+        "party": "APC",
+        "isIncumbent": true
+      },
+      {
+        "name": "Nwame Samuel Chima",
+        "party": "AA",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ogiri Manuwa Morgan",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Elleh Joseph",
+        "party": "APP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Uduru Bisi Amedi",
+        "party": "DLA",
+        "isIncumbent": false
+      },
+      {
+        "name": "Agi Nwakanma Ifeanyi",
+        "party": "LP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Umejuru Nwabuwheoma Isaac",
+        "party": "NDC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Okiriaki Chukwuladi Tony",
+        "party": "NNPP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Kakoro Dike Godstime",
+        "party": "PDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ogbonna Original C.",
+        "party": "SDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ogoshi Promise Ikashibueze",
+        "party": "YPP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ogbobula Ben Chinedum",
+        "party": "ZLP",
+        "isIncumbent": false
+      }
+    ],
+    "FC/318/RV": [
+      {
+        "name": "Hart Cyril Godwin",
+        "party": "APC",
+        "isIncumbent": true
+      },
+      {
+        "name": "Hart Ibimina Minafuro",
+        "party": "AA",
+        "isIncumbent": false
+      },
+      {
+        "name": "Banigo George",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Tobins Tobini",
+        "party": "APM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Aboyomi Frank Tamuno- Miete",
+        "party": "APP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Jeremiah Godwill",
+        "party": "DLA",
+        "isIncumbent": false
+      },
+      {
+        "name": "Pepple Hope Biegbana",
+        "party": "LP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Harry Sopiriala Hans",
+        "party": "NDC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ikiriko Fulfill Levi",
+        "party": "NNPP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Banigo Johnson Anthony",
+        "party": "PDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Hezekiah Nimitein",
+        "party": "SDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Braide Ayanaba",
+        "party": "YPP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Hart Preston Tamunowunari",
+        "party": "ZLP",
+        "isIncumbent": false
+      }
+    ],
+    "FC/319/RV": [
+      {
+        "name": "Granvile Alabo",
+        "party": "AA",
+        "isIncumbent": false
+      },
+      {
+        "name": "Dodiyi-Manuel Douglas Waserite",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Solomon-Jack Isobo Steve",
+        "party": "APC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Whyte Churchill Soala",
+        "party": "APM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Goodhead Boma",
+        "party": "APP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Christiana Kaladokubo",
+        "party": "DLA",
+        "isIncumbent": false
+      },
+      {
+        "name": "Henry Dennis Ayagere",
+        "party": "LP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Sukubo Ibiosiya Nathaniel",
+        "party": "NDC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ipalibo Alabo",
+        "party": "PDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Danate Ezekiel Victor",
+        "party": "SDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Bille Victor Friday",
+        "party": "YPP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Briggs Soberekon Kelvin",
+        "party": "ZLP",
+        "isIncumbent": false
+      }
+    ],
+    "FC/320/RV": [
+      {
+        "name": "Imabibo Andy",
+        "party": "AA",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ikpuku Golden Promise",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Somiari-Stewart Linda Koroma",
+        "party": "APC",
+        "isIncumbent": false
+      },
+      {
+        "name": "George Gabriel Clifford",
+        "party": "APM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Gospel Tamunoibiokwein Adumo.",
+        "party": "APP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Richard Tamunodukoye",
+        "party": "DLA",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ogan Rogers John",
+        "party": "LP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Owubokiri Tamunotonye Felix",
+        "party": "NDC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Emmanuel Boma",
+        "party": "PDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Emman Imabibo Kiriboforie",
+        "party": "SDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Alayemieka Tonye Apollos",
+        "party": "YPP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Harry Boma",
+        "party": "ZLP",
+        "isIncumbent": false
+      }
+    ],
+    "FC/321/RV": [
+      {
+        "name": "Jaja Sokari Simeon",
+        "party": "AA",
+        "isIncumbent": false
+      },
+      {
+        "name": "Uranta Maclean Bethel",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ekeneokangwung Ukotifritam",
+        "party": "ADP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Apiafi Frederick Boma",
+        "party": "APC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Peterside Regina John",
+        "party": "APM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Jaja Kendrick",
+        "party": "APP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Acra Edmund Jones",
+        "party": "DLA",
+        "isIncumbent": false
+      },
+      {
+        "name": "Jaja Tamunotonye Melisia Loveday",
+        "party": "LP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Sobere Etete Emiyarei",
+        "party": "NDC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Fubara Macauley Fubara",
+        "party": "NRM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Brown Robinson Ebilene Dike",
+        "party": "PDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Jaja Fubara S.",
+        "party": "YPP",
+        "isIncumbent": false
+      }
+    ],
+    "FC/322/RV": [
+      {
+        "name": "Nwaeke Felix Uche",
+        "party": "APC",
+        "isIncumbent": true
+      },
+      {
+        "name": "Wai-Ogosu Obarine",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Nwoke Jonathan Sorbari",
+        "party": "ADP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Naabe Barideton Perkins",
+        "party": "APM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Kpurugbara Kenneth",
+        "party": "APP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Davies Mba Saloka",
+        "party": "DLA",
+        "isIncumbent": false
+      },
+      {
+        "name": "Gbali Chisom",
+        "party": "NDC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Moses Okechukwu",
+        "party": "PDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Oluka-Nwafor Igwe Emmanuel",
+        "party": "PRP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Okechukwu Kingsley",
+        "party": "YPP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Akara Harry Enyinna",
+        "party": "ZLP",
+        "isIncumbent": false
+      }
+    ],
+    "FC/323/RV": [
+      {
+        "name": "Dekor Dumnamene Robinson",
+        "party": "APC",
+        "isIncumbent": true
+      },
+      {
+        "name": "Zuguru Beauty Dorka",
+        "party": "AA",
+        "isIncumbent": false
+      },
+      {
+        "name": "Gbaragba Dumka Neebee",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Gboeodom Stanley Ledeebari",
+        "party": "APP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Gani Ekpobari Martin",
+        "party": "DLA",
+        "isIncumbent": false
+      },
+      {
+        "name": "Sunday Kenule Leyiga",
+        "party": "LP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Mikko Normate",
+        "party": "NDC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Gbabi Gbabi Alelaelo",
+        "party": "NDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Buradum Baribefe Daniel",
+        "party": "NNPP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Fyneface Promise",
+        "party": "PDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Neebarisere Victor",
+        "party": "YPP",
+        "isIncumbent": false
+      }
+    ],
+    "FC/324/RV": [
+      {
+        "name": "Asomeji Augustine Onyebuchi",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "London Edi Edi",
+        "party": "ADP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Onyeozu Joy Nyebuchi",
+        "party": "APC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Oti Ovunda Raju",
+        "party": "APM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Omereji Destiny Goddey.",
+        "party": "APP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Orlu-Orlu Mills Chiwendu",
+        "party": "LP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ohaka Fugbara Goodluck",
+        "party": "NDC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Igbor Ngozi Vivian",
+        "party": "NDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ekeji Justina Nonyerem",
+        "party": "NRM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Uchendu Arthur Okwudiri",
+        "party": "PDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Uchendu Synchro Uchechukwu",
+        "party": "PRP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Afronelly Wonne O.",
+        "party": "SDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Agburum Henry",
+        "party": "ZLP",
+        "isIncumbent": false
+      }
+    ],
+    "FC/325/RV": [
+      {
+        "name": "Amaechi Christian",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ozuzu Chibuzor Nwamaka",
+        "party": "APC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Eburu Blessing Ogadinma",
+        "party": "APM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Nwordu Lucky",
+        "party": "DLA",
+        "isIncumbent": false
+      },
+      {
+        "name": "Nwosu Adaku Bridget",
+        "party": "LP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Okoro Charles",
+        "party": "NDC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Nwogu Godspower Kelechi",
+        "party": "PDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Heshiulor Julius",
+        "party": "SDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Onwuka Ekele",
+        "party": "YPP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Azuonwu Godspower",
+        "party": "ZLP",
+        "isIncumbent": false
+      }
+    ],
+    "FC/326/RV": [
+      {
+        "name": "Gboms King Tony",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Amaewhule Martin Chike",
+        "party": "APC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Amadi Vivian Nkechinyere",
+        "party": "APM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ebenezer Kingsley Ichechi",
+        "party": "APP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ikwuaga Samuel",
+        "party": "DLA",
+        "isIncumbent": false
+      },
+      {
+        "name": "Okwu-Amadi Chizunemma Godwin",
+        "party": "LP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Onunwor Ndamati",
+        "party": "NDC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Aleruba Christian Ichechukwu",
+        "party": "NRM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Wokomaty Comfort Chioma",
+        "party": "PDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ogor Charles O.",
+        "party": "SDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Wehere Stanley Merekini",
+        "party": "YPP",
+        "isIncumbent": false
+      }
+    ],
+    "FC/327/RV": [
+      {
+        "name": "Umezuruike Manuchim",
+        "party": "NDC",
+        "isIncumbent": true
+      },
+      {
+        "name": "Omodu Worlu Jackwest",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Olumati Isaiah",
+        "party": "ADP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Igwe Precious",
+        "party": "APC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Gbosi Matthew Baridacara",
+        "party": "APP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Nwankwo Okechukwu",
+        "party": "LP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Okogbule-Wonodi Achinike",
+        "party": "PDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Okwu Blessing Adiba",
+        "party": "SDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Jack Tamuno-Omie Victor",
+        "party": "YPP",
+        "isIncumbent": false
+      }
+    ],
+    "FC/328/RV": [
+      {
+        "name": "Amadi Blessing Chigeru",
+        "party": "APC",
+        "isIncumbent": true
+      },
+      {
+        "name": "Amadi Samuel Worlu",
+        "party": "AA",
+        "isIncumbent": false
+      },
+      {
+        "name": "Wohuruche Nhayichi",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ejah Osim Augustine",
+        "party": "APM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ajoku Emmanuel Ikechukwu",
+        "party": "LP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Nnokam Ikechi Akandu",
+        "party": "NDC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Amadi Chitugah Justice",
+        "party": "PDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Daibi Sample",
+        "party": "SDP",
+        "isIncumbent": false
+      }
+    ],
+    "SD/094/RV": [
+      {
+        "name": "Onyesoh Allwell Iheacho",
+        "party": "APC",
+        "isIncumbent": true
+      },
+      {
+        "name": "Onyesoh Felix Iheanyi",
+        "party": "AA",
+        "isIncumbent": false
+      },
+      {
+        "name": "Agwor Samuel Ndubuisi",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Echem Lucky",
+        "party": "APM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Wokekoro Beauty Dike Chinonso",
+        "party": "APP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Livingstone Iniabiecheton Lambert",
+        "party": "DLA",
+        "isIncumbent": false
+      },
+      {
+        "name": "Itubo Beatrice",
+        "party": "LP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Okwuwolu Wolu Ekelechi Benjamin",
+        "party": "NDC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ekeji Lucky Achinihu",
+        "party": "NRM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Anele Akor Wisdom",
+        "party": "PDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Anele Justine",
+        "party": "SDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Thompson Barasin Igbeinbia",
+        "party": "ZLP",
+        "isIncumbent": false
+      }
+    ],
+    "SD/095/RV": [
+      {
+        "name": "Nwogu Olaka",
+        "party": "PDP",
+        "isIncumbent": true
+      },
+      {
+        "name": "Fabeke Douglas Dekae",
+        "party": "AA",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ikuru Tele Betram",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Nbete Raphael Zorbari",
+        "party": "ADP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Osarosaka Ebenezer Erewari",
+        "party": "APC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Sunday Leton Peter",
+        "party": "APM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Giadom Roy",
+        "party": "APP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ezekiel Karibo",
+        "party": "DLA",
+        "isIncumbent": false
+      },
+      {
+        "name": "Sam Kinanee Barikpoa",
+        "party": "LP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Abiante Awaji-Inombek Dagomie",
+        "party": "NDC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Okpukpo Minima Andy Owen",
+        "party": "NDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Lessi Naasi Susan",
+        "party": "SDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Jeremiah Kingswill Awajiogak",
+        "party": "ZLP",
+        "isIncumbent": false
+      }
+    ],
+    "SD/096/RV": [
+      {
+        "name": "Ololube Charity Chizhim",
+        "party": "AA",
+        "isIncumbent": false
+      },
+      {
+        "name": "Otto Josiah",
+        "party": "ADC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Abusi Tammy C",
+        "party": "ADP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Obuah Amechi Felix",
+        "party": "APC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Anabraba Adonijah Eddie",
+        "party": "APM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Briggs John Oba",
+        "party": "APP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Opoli Aneni Inyamoyio",
+        "party": "DLA",
+        "isIncumbent": false
+      },
+      {
+        "name": "Izu Iduoku Ibisime",
+        "party": "LP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ogbobula Isaac Abbot",
+        "party": "NDC",
+        "isIncumbent": false
+      },
+      {
+        "name": "Eke Jeffrey Kitoye Joseff",
+        "party": "NDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Sokari George Georgina",
+        "party": "NNPP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Clifford Edanuko",
+        "party": "NRM",
+        "isIncumbent": false
+      },
+      {
+        "name": "Job Vincent",
+        "party": "PDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ogbokuma Progress",
+        "party": "SDP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Jacks Boma Edmund",
+        "party": "YPP",
+        "isIncumbent": false
+      },
+      {
+        "name": "Ozuzu Robertson",
+        "party": "ZLP",
+        "isIncumbent": false
+      }
+    ]
+  },
+  "presidential": [
+    {
+      "party": "AA",
+      "candidate": "Rufai Adekunle Omo-Aje",
+      "runningMate": "Shehu Hussaini"
+    },
+    {
+      "party": "AAC",
+      "candidate": "Sowore Omoyele",
+      "runningMate": "Magashi Haruna Garba"
+    },
+    {
+      "party": "ADC",
+      "candidate": "Abubakar Atiku",
+      "runningMate": "Amaechi Chibuike Rotimi"
+    },
+    {
+      "party": "ADP",
+      "candidate": "Abbas-Bin Aliyu",
+      "runningMate": "Ike Chinazam"
+    },
+    {
+      "party": "APC",
+      "candidate": "Tinubu Bola Ahmed",
+      "runningMate": "Shettima Kashim"
+    },
+    {
+      "party": "APM",
+      "candidate": "Makinde Oluseyi Abiodun",
+      "runningMate": "Musa Lawal Daura"
+    },
+    {
+      "party": "APP",
+      "candidate": "Yusuf Kabiru",
+      "runningMate": "Ofordile Peace Egobia"
+    },
+    {
+      "party": "BP",
+      "candidate": "Adenuga Sunday",
+      "runningMate": "Mustapha Usman Turaki"
+    },
+    {
+      "party": "DLA",
+      "candidate": "Adebisi Moses Olusoji",
+      "runningMate": "Abubakar Nafisat Usaku"
+    },
+    {
+      "party": "LP",
+      "candidate": "Okereke Sunday Chibuzo",
+      "runningMate": "Konto Hajja Bintu"
+    },
+    {
+      "party": "NDC",
+      "candidate": "Obi Peter Gregory",
+      "runningMate": "Musa Mohammed Rabiu Kwankwaso"
+    },
+    {
+      "party": "NDP",
+      "candidate": "Okwori Ada Elizabeth Fredrick",
+      "runningMate": "Chukwuemeka Uchenna Anthony"
+    },
+    {
+      "party": "NRM",
+      "candidate": "Okereke Nkem Esther",
+      "runningMate": "Sulaiman Nasir Muhammed"
+    },
+    {
+      "party": "PDP",
+      "candidate": "Onor Sandy Ojang",
+      "runningMate": "Umaru Babangida"
+    },
+    {
+      "party": "PRP",
+      "candidate": "Duke Donald",
+      "runningMate": "Rabiu Kabiru"
+    },
+    {
+      "party": "SDP",
+      "candidate": "Adebayo Adewole Ebenezer",
+      "runningMate": "Bugaje Usman Muhammed"
+    },
+    {
+      "party": "YPP",
+      "candidate": "Agada Peter Ada",
+      "runningMate": "Key Patience Ndidi"
+    },
+    {
+      "party": "ZLP",
+      "candidate": "Nwanyanwu Daniel Daberechukwu",
+      "runningMate": "Hassan Khalid"
+    }
+  ]
+}
