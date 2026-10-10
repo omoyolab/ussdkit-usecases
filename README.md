@@ -10,3 +10,7 @@ Real USSD services built end to end on [ussdkit](https://github.com/omoyolab/uss
 Each use case installs ussdkit from npm the way a team would, and is written in TypeScript so the library's types are tested too.
 
 The mobile money service is made up. Know your lawmakers uses real public records through the plus234feed API and is not a government or INEC service. Neither is affiliated with any operator, bank or government.
+
+## How it is made
+
+Built with AI assistance (Claude). Every change is reviewed and decided by the maintainer before it ships.
